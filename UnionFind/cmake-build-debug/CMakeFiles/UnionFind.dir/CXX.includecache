@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jorge/CLionProjects/UnionFind/Tree.cpp
+Tree.h
+C:/Users/Jorge/CLionProjects/UnionFind/Tree.h
+
+C:/Users/Jorge/CLionProjects/UnionFind/Tree.h
+
+C:/Users/Jorge/CLionProjects/UnionFind/main.cpp
+iostream
+-
+
