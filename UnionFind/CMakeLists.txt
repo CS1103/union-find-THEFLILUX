@@ -3,4 +3,4 @@ project(UnionFind)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(UnionFind main.cpp Tree.cpp Tree.h)
+add_executable(UnionFind main.cpp)

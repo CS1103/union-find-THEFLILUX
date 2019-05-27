@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/UnionFind.dir/main.cpp.obj"
-  "CMakeFiles/UnionFind.dir/Tree.cpp.obj"
   "UnionFind.pdb"
   "UnionFind.exe"
   "UnionFind.exe.manifest"

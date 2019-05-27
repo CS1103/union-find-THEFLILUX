@@ -47,10 +47,10 @@ RM = "D:\Clion\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Jorge\CLionProjects\UnionFind
+CMAKE_SOURCE_DIR = C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug\CMakeFiles C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug\CMakeFiles C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,33 +122,6 @@ UnionFind/fast:
 	$(MAKE) -f CMakeFiles\UnionFind.dir\build.make CMakeFiles/UnionFind.dir/build
 .PHONY : UnionFind/fast
 
-Tree.obj: Tree.cpp.obj
-
-.PHONY : Tree.obj
-
-# target to build an object file
-Tree.cpp.obj:
-	$(MAKE) -f CMakeFiles\UnionFind.dir\build.make CMakeFiles/UnionFind.dir/Tree.cpp.obj
-.PHONY : Tree.cpp.obj
-
-Tree.i: Tree.cpp.i
-
-.PHONY : Tree.i
-
-# target to preprocess a source file
-Tree.cpp.i:
-	$(MAKE) -f CMakeFiles\UnionFind.dir\build.make CMakeFiles/UnionFind.dir/Tree.cpp.i
-.PHONY : Tree.cpp.i
-
-Tree.s: Tree.cpp.s
-
-.PHONY : Tree.s
-
-# target to generate assembly for a file
-Tree.cpp.s:
-	$(MAKE) -f CMakeFiles\UnionFind.dir\build.make CMakeFiles/UnionFind.dir/Tree.cpp.s
-.PHONY : Tree.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,9 +158,6 @@ help:
 	@echo ... UnionFind
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Tree.obj
-	@echo ... Tree.i
-	@echo ... Tree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

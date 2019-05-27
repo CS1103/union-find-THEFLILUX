@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Jorge/CLionProjects/UnionFind/Tree.cpp" "C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/CMakeFiles/UnionFind.dir/Tree.cpp.obj"
-  "C:/Users/Jorge/CLionProjects/UnionFind/main.cpp" "C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/CMakeFiles/UnionFind.dir/main.cpp.obj"
+  "C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/main.cpp" "C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/CMakeFiles/UnionFind.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -42,10 +42,10 @@ RM = "D:\Clion\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Jorge\CLionProjects\UnionFind
+CMAKE_SOURCE_DIR = C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/UnionFind.dir/depend.make
@@ -58,45 +58,30 @@ include CMakeFiles/UnionFind.dir/flags.make
 
 CMakeFiles/UnionFind.dir/main.cpp.obj: CMakeFiles/UnionFind.dir/flags.make
 CMakeFiles/UnionFind.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UnionFind.dir/main.cpp.obj"
-	D:\MINGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UnionFind.dir\main.cpp.obj -c C:\Users\Jorge\CLionProjects\UnionFind\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UnionFind.dir/main.cpp.obj"
+	D:\MINGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UnionFind.dir\main.cpp.obj -c C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\main.cpp
 
 CMakeFiles/UnionFind.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnionFind.dir/main.cpp.i"
-	D:\MINGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jorge\CLionProjects\UnionFind\main.cpp > CMakeFiles\UnionFind.dir\main.cpp.i
+	D:\MINGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\main.cpp > CMakeFiles\UnionFind.dir\main.cpp.i
 
 CMakeFiles/UnionFind.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnionFind.dir/main.cpp.s"
-	D:\MINGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jorge\CLionProjects\UnionFind\main.cpp -o CMakeFiles\UnionFind.dir\main.cpp.s
-
-CMakeFiles/UnionFind.dir/Tree.cpp.obj: CMakeFiles/UnionFind.dir/flags.make
-CMakeFiles/UnionFind.dir/Tree.cpp.obj: ../Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/UnionFind.dir/Tree.cpp.obj"
-	D:\MINGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UnionFind.dir\Tree.cpp.obj -c C:\Users\Jorge\CLionProjects\UnionFind\Tree.cpp
-
-CMakeFiles/UnionFind.dir/Tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnionFind.dir/Tree.cpp.i"
-	D:\MINGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jorge\CLionProjects\UnionFind\Tree.cpp > CMakeFiles\UnionFind.dir\Tree.cpp.i
-
-CMakeFiles/UnionFind.dir/Tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnionFind.dir/Tree.cpp.s"
-	D:\MINGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jorge\CLionProjects\UnionFind\Tree.cpp -o CMakeFiles\UnionFind.dir\Tree.cpp.s
+	D:\MINGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\main.cpp -o CMakeFiles\UnionFind.dir\main.cpp.s
 
 # Object files for target UnionFind
 UnionFind_OBJECTS = \
-"CMakeFiles/UnionFind.dir/main.cpp.obj" \
-"CMakeFiles/UnionFind.dir/Tree.cpp.obj"
+"CMakeFiles/UnionFind.dir/main.cpp.obj"
 
 # External object files for target UnionFind
 UnionFind_EXTERNAL_OBJECTS =
 
 UnionFind.exe: CMakeFiles/UnionFind.dir/main.cpp.obj
-UnionFind.exe: CMakeFiles/UnionFind.dir/Tree.cpp.obj
 UnionFind.exe: CMakeFiles/UnionFind.dir/build.make
 UnionFind.exe: CMakeFiles/UnionFind.dir/linklibs.rsp
 UnionFind.exe: CMakeFiles/UnionFind.dir/objects1.rsp
 UnionFind.exe: CMakeFiles/UnionFind.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable UnionFind.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable UnionFind.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\UnionFind.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +94,6 @@ CMakeFiles/UnionFind.dir/clean:
 .PHONY : CMakeFiles/UnionFind.dir/clean
 
 CMakeFiles/UnionFind.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Jorge\CLionProjects\UnionFind C:\Users\Jorge\CLionProjects\UnionFind C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug C:\Users\Jorge\CLionProjects\UnionFind\cmake-build-debug\CMakeFiles\UnionFind.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug C:\Users\Jorge\Pictures\union-find-THEFLILUX\UnionFind\cmake-build-debug\CMakeFiles\UnionFind.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UnionFind.dir/depend
 

@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UnionFind">
-				<Option output="C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/UnionFind.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug"/>
+				<Option output="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/UnionFind.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="D:/MINGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnionFind"/>
-					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnionFind"/>
+					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UnionFind/fast">
-				<Option output="C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/UnionFind.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug"/>
+				<Option output="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/UnionFind.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,43 +53,37 @@
 					<Add directory="D:/MINGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnionFind/fast"/>
-					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnionFind/fast"/>
+					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/CLionProjects/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Jorge/CLionProjects/UnionFind/Tree.cpp">
+		<Unit filename="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/main.cpp">
 			<Option target="UnionFind"/>
 		</Unit>
-		<Unit filename="C:/Users/Jorge/CLionProjects/UnionFind/Tree.h">
-			<Option target="UnionFind"/>
-		</Unit>
-		<Unit filename="C:/Users/Jorge/CLionProjects/UnionFind/main.cpp">
-			<Option target="UnionFind"/>
-		</Unit>
-		<Unit filename="C:/Users/Jorge/CLionProjects/UnionFind/CMakeLists.txt">
+		<Unit filename="C:/Users/Jorge/Pictures/union-find-THEFLILUX/UnionFind/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
